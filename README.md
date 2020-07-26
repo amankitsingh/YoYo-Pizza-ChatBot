@@ -21,7 +21,7 @@ YoYo pizza ChatBot
   </a>
   
   <a>
-    <img src="https://img.shields.io/badge/Gcloud-Server-yellowgreen" alt="Gcloud">
+    <img src="https://img.shields.io/badge/GCloud-Server-lightgrey" alt="Gcloud">
   </a>
 </p>
 
