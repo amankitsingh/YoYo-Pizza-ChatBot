@@ -1,0 +1,53 @@
+{
+  "id": "8a762412-f307-4805-a7c0-1268a5b7ccfb",
+  "name": "Get Pizza type",
+  "auto": true,
+  "contexts": [
+    "pizza_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_toppings",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cc9ab9ec-ea28-4df8-a232-6071a8afc63d",
+          "required": true,
+          "dataType": "@pizza_type",
+          "name": "pizza_type",
+          "value": "$pizza_type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "vegetarian",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$pizza_type it is.    Please add 2 additional toppings for your $pizza_type."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

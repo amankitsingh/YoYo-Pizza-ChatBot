@@ -1,0 +1,45 @@
+{
+  "id": "dbed7f90-56b9-4817-bd5a-f01a50dab3f4",
+  "parentId": "a1ba1490-ad7e-413c-8ff0-ed4d605978a1",
+  "rootParentId": "a1ba1490-ad7e-413c-8ff0-ed4d605978a1",
+  "name": "Order a pizza",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting_name_and_phone_number",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Please provide your name and phone number.",
+            "Can you please tell me your name and phone number to better assist you."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

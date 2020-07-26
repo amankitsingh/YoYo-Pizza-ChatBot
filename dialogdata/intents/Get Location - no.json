@@ -1,0 +1,46 @@
+{
+  "id": "70ecc769-6217-4921-911a-864d92677438",
+  "parentId": "e02dc6f9-c28f-4b05-8b03-2d97901e7991",
+  "rootParentId": "e02dc6f9-c28f-4b05-8b03-2d97901e7991",
+  "name": "Get Location - no",
+  "auto": true,
+  "contexts": [
+    "awaiting_location_confirm",
+    "GetLocation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetLocation.GetLocation-no",
+      "affectedContexts": [
+        {
+          "name": "awaiting_location",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Opps! please try again.",
+            "Sorry to hear that. Can you please try again"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

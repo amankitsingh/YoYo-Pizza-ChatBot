@@ -1,0 +1,46 @@
+{
+  "id": "7ed39d43-34d0-490a-9bcc-82ee1356877c",
+  "parentId": "71f34f96-c068-4058-81de-8108fda15818",
+  "rootParentId": "71f34f96-c068-4058-81de-8108fda15818",
+  "name": "pizza toppings - yes",
+  "auto": true,
+  "contexts": [
+    "awaiting_toppings_confirm",
+    "pizzatoppings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzatoppings.pizzatoppings-yes",
+      "affectedContexts": [
+        {
+          "name": "pizza_size",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "What size of pizza you want(small/medium/large)?",
+            "Please tell your pizza size(small/medium/large)."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

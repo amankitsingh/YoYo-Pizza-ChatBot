@@ -1,0 +1,43 @@
+{
+  "id": "da945523-091e-4d5f-abfe-3a62cd4934a3",
+  "parentId": "e7185741-7edd-46da-aebd-80d1966c154f",
+  "rootParentId": "e7185741-7edd-46da-aebd-80d1966c154f",
+  "name": "Confirm Name Yes",
+  "auto": true,
+  "contexts": [
+    "GetName-followup",
+    "awaiting_name_confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetName.GetName-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting_address",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thankyou! Welcome #awaiting_name_confirm.name To YoYo pizza! Please provide your address!!!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

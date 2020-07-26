@@ -1,0 +1,43 @@
+{
+  "id": "242d23da-a9a7-40e4-8cce-1cd7d95ae6cc",
+  "parentId": "e02dc6f9-c28f-4b05-8b03-2d97901e7991",
+  "rootParentId": "e02dc6f9-c28f-4b05-8b03-2d97901e7991",
+  "name": "Get Location - yes",
+  "auto": true,
+  "contexts": [
+    "GetLocation-followup",
+    "awaiting_address_confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetLocation.GetLocation-yes",
+      "affectedContexts": [
+        {
+          "name": "pizza_type",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thankyou for confirm your location as #awaiting_address_confirm.address. What type of pizza would you like to have today.(veg/nonveg)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "value": "small",
+    "synonyms": [
+      "small",
+      "6 inch smal",
+      "smaller",
+      "smallest",
+      "regular"
+    ]
+  },
+  {
+    "value": "medium",
+    "synonyms": [
+      "medium",
+      "10 inch medium"
+    ]
+  },
+  {
+    "value": "large",
+    "synonyms": [
+      "large",
+      "15 inch large",
+      "largest",
+      "extra large"
+    ]
+  }
+]

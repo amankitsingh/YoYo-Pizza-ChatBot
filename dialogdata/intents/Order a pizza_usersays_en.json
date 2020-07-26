@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dd7339d5-26e3-4114-81d6-c7c340a3c07f",
+    "data": [
+      {
+        "text": "order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e6e0041-45ce-412d-b2b7-ed856dde380a",
+    "data": [
+      {
+        "text": "please, take my order for pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a62ead20-b54a-4ca0-a51c-b720dc245d97",
+    "data": [
+      {
+        "text": "I want to order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38999900-9173-49fe-bf56-3ed208808f19",
+    "data": [
+      {
+        "text": "get me a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "afd2fefb-f470-4551-a7c4-3a66c8ea941b",
+    "data": [
+      {
+        "text": "order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "efb7e235-a1b8-47bd-9303-c66b3bc3a2f1",
+    "data": [
+      {
+        "text": "Hey, lets order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "id": "e02dc6f9-c28f-4b05-8b03-2d97901e7991",
+  "name": "Get Location",
+  "auto": true,
+  "contexts": [
+    "awaiting_address"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_address_confirm",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "GetLocation-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "96614017-a35c-46aa-9e0e-15a8e2326deb",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo_city",
+          "value": "$geo_city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your province"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "Bengaluru",
+          "isList": false
+        },
+        {
+          "id": "77aacdc6-f8e7-4e9b-9fb6-99c33717c1ff",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your complete address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "marathahalli",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Can you please confirm $address $geo_city is your active address?",
+            "Please confirm $address $geo_city is you address?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "e7185741-7edd-46da-aebd-80d1966c154f",
+  "name": "Get Name and phone number",
+  "auto": true,
+  "contexts": [
+    "awaiting_name_and_phone_number"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_name_confirm",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "GetName-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0fcb19d3-1b41-4fc9-8917-29128e35e5c9",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone_number",
+          "value": "$phone_number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please give a valid phone number?"
+            },
+            {
+              "lang": "en",
+              "value": "Please provide your phone number too."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c4e0ed85-7fe9-4d03-ae27-34c4ed7955cb",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Can you please Confirm that $name $phone_number is your name and phone number?",
+            "Please confirm $name $phone_number is right?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

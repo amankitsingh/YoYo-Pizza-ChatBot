@@ -1,0 +1,70 @@
+{
+  "id": "c86eeb93-4d3d-4f61-83ca-3fb6fd3ff44a",
+  "name": "Order Status",
+  "auto": false,
+  "contexts": [
+    "awaiting_order_confimation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "83018494-96e4-4bbd-a362-28890cbbc5b9",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given_name",
+          "value": "$given_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell your name."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "aa0fe8ee-d777-4a38-94c6-dfc6e163d107",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone_number",
+          "value": "$phone_number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell your phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

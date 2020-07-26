@@ -1,0 +1,43 @@
+{
+  "id": "d7ddfbf4-3df9-430f-b692-a235429b222f",
+  "parentId": "7f22719a-511f-4216-9da9-db88a989fee4",
+  "rootParentId": "7f22719a-511f-4216-9da9-db88a989fee4",
+  "name": "Get pizza size - no",
+  "auto": true,
+  "contexts": [
+    "awaiting_size_confirm",
+    "Getpizzasize-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Getpizzasize.Getpizzasize-no",
+      "affectedContexts": [
+        {
+          "name": "awaiting_size_confirm",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

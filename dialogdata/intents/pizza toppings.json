@@ -1,0 +1,62 @@
+{
+  "id": "71f34f96-c068-4058-81de-8108fda15818",
+  "name": "pizza toppings",
+  "auto": true,
+  "contexts": [
+    "awaiting_toppings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetPizzatype.GetPizzatype-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting_toppings_confirm",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "pizzatoppings-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f05054fd-2ed2-4c4c-8157-e6d5de27f1b4",
+          "required": true,
+          "dataType": "@pizza_toppings",
+          "name": "pizza_toppings",
+          "value": "$pizza_toppings",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "onion and paneer",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "$pizza_toppings it is.  Are you sure with this toppings?",
+            "you want $pizza_toppings on your #awaiting_toppings.pizza_type pizza. Please confirm it."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

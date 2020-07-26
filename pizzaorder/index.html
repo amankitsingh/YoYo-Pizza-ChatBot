@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&display=swap');
+
+    .chatbox {
+      height: 100%;
+      background-size: cover;
+      background-image: url("./image.jpg");
+      text-align: center;
+    }
+
+    .chatbot {
+      text-align: center;
+      position: float;
+      margin-top: 50px;
+      width: 350px;
+      height: 530px;
+      box-shadow: grey 3px 3px 3px 3px;
+      animation: slide 0.5s forwards;
+      animation-delay: 2s;
+    }
+
+    h4 {
+      font-family: 'Amatic SC', cursive;
+      font-family: 'Dancing Script', cursive;
+    }
+
+    @media screen and (max-device-width: 640px) {
+      .chatbox {
+        height: 750px;
+      }
+
+      .chatbot {
+        margin-top: 20%;
+        width: 300px;
+        height: 530px;
+      }
+
+      h4 {
+        margin-top: 15%;
+      }
+    }
+
+    @media screen and (max-device-width: 400px) {
+      .chatbox {
+        height: 555px;
+      }
+
+      .chatbot {
+        margin-top: 10%;
+        width: 300px;
+        height: 430px;
+      }
+
+      h4 {
+        margin-top: 10%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="chatbox">
+    <iframe class="chatbot" allow="microphone;"
+      src="https://console.dialogflow.com/api-client/demo/embedded/25e83ccc-360a-4e10-b2cf-09eb6b541917">
+    </iframe>
+    <h4>Made with ❤️ by Ankit Singh</h4>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+[
+  {
+    "value": "tomato",
+    "synonyms": [
+      "tomato",
+      "tomto"
+    ]
+  },
+  {
+    "value": "paneer",
+    "synonyms": [
+      "panner",
+      "panee",
+      "paneer"
+    ]
+  },
+  {
+    "value": "capcisum",
+    "synonyms": [
+      "capcisum",
+      "capsicum"
+    ]
+  },
+  {
+    "value": "onion",
+    "synonyms": [
+      "onion",
+      "onon"
+    ]
+  },
+  {
+    "value": "gold corn",
+    "synonyms": [
+      "gold corn",
+      "corn",
+      "corns"
+    ]
+  },
+  {
+    "value": "salami",
+    "synonyms": [
+      "salami"
+    ]
+  },
+  {
+    "value": "Pepproni",
+    "synonyms": [
+      "Pepproni"
+    ]
+  },
+  {
+    "value": "Bacon",
+    "synonyms": [
+      "Bacon"
+    ]
+  },
+  {
+    "value": "Chicken Breasts",
+    "synonyms": [
+      "Chicken Breasts"
+    ]
+  },
+  {
+    "value": "Ham",
+    "synonyms": [
+      "Ham"
+    ]
+  },
+  {
+    "value": "Sausages",
+    "synonyms": [
+      "Sausages"
+    ]
+  },
+  {
+    "value": "mutton",
+    "synonyms": [
+      "mutton",
+      "mutt",
+      "mutto",
+      "muttons"
+    ]
+  }
+]

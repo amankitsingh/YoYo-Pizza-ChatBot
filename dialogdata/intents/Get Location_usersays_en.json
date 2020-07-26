@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ec4432f8-3dc6-4074-8faf-a2e90810aa64",
+    "data": [
+      {
+        "text": "21 baker street",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "London",
+        "alias": "geo_city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "068b7696-1d89-47c3-9d2c-ad29ac3a8a79",
+    "data": [
+      {
+        "text": "dombivali",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mumbai",
+        "alias": "geo_city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "890ac950-6e53-48aa-9d60-57f9097be160",
+    "data": [
+      {
+        "text": "anandvihar",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "delhi",
+        "alias": "geo_city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94201a6b-46ed-4a64-b1bc-d6e892bd4df1",
+    "data": [
+      {
+        "text": "Whitefield",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bangalore",
+        "alias": "geo_city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "086fd6d5-f16f-42e6-a205-9bb397b79f54",
+    "data": [
+      {
+        "text": "marathahalli",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bangalore",
+        "alias": "geo_city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

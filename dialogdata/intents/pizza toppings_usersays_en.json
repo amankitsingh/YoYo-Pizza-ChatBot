@@ -1,0 +1,182 @@
+[
+  {
+    "id": "90a2c2b1-2e59-418b-b5d0-197a5ba2f6bb",
+    "data": [
+      {
+        "text": "bacon",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      },
+      {
+        "text": " with some spark of ",
+        "userDefined": false
+      },
+      {
+        "text": "paneer",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b132dee5-9153-442c-ada2-98d7f21faa81",
+    "data": [
+      {
+        "text": "one ",
+        "userDefined": false
+      },
+      {
+        "text": "salemi",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      },
+      {
+        "text": " and one ",
+        "userDefined": false
+      },
+      {
+        "text": "paneer",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02405973-5030-4ecc-813f-2d45f1b71b40",
+    "data": [
+      {
+        "text": "tomato",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      },
+      {
+        "text": " with some ",
+        "userDefined": false
+      },
+      {
+        "text": "paneer",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7993e6bf-75f5-4846-9309-ff6b1b5d5938",
+    "data": [
+      {
+        "text": "add ",
+        "userDefined": false
+      },
+      {
+        "text": "golcorn",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "paneer",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6f3ef228-7b01-4f7a-993c-8499ec880caf",
+    "data": [
+      {
+        "text": "one ",
+        "userDefined": false
+      },
+      {
+        "text": "paneer",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "onion",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "232bd520-af7a-4e10-953b-2a5ac3cb9d97",
+    "data": [
+      {
+        "text": "jalepeno",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomato",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09d7e762-c4ac-4a4c-8ab5-b15434078b38",
+    "data": [
+      {
+        "text": "gold corn",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "onion",
+        "alias": "pizza_toppings",
+        "meta": "@pizza_toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

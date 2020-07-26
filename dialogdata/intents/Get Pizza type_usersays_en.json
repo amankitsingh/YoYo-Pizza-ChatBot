@@ -1,0 +1,58 @@
+[
+  {
+    "id": "80c78421-7f5b-4831-b2e4-7d54d3423db6",
+    "data": [
+      {
+        "text": "non-vegetarian",
+        "alias": "pizza_type",
+        "meta": "@pizza_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6f24b455-3a0d-4d25-9ae7-f3ffc898d380",
+    "data": [
+      {
+        "text": "vegetarian",
+        "alias": "pizza_type",
+        "meta": "@pizza_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07dfb291-aa16-4027-945a-80a7d7dad23b",
+    "data": [
+      {
+        "text": "nonveg",
+        "alias": "pizza_type",
+        "meta": "@pizza_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66a0ea34-25a5-4b26-acb0-b5a6905bd2ae",
+    "data": [
+      {
+        "text": "veg",
+        "alias": "pizza_type",
+        "meta": "@pizza_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

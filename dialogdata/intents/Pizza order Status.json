@@ -1,0 +1,46 @@
+{
+  "id": "4946715e-905f-444f-9b3a-d90657f4420b",
+  "parentId": "a1ba1490-ad7e-413c-8ff0-ed4d605978a1",
+  "rootParentId": "a1ba1490-ad7e-413c-8ff0-ed4d605978a1",
+  "name": "Pizza order Status",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting_order_confimation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Please tell me your name and phone number for pizza status",
+            "We will need your name and phone number for order status",
+            "name and phone number please"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

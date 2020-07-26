@@ -1,0 +1,46 @@
+{
+  "id": "916368fa-8a55-4f0e-b63a-a389e65fe343",
+  "parentId": "e7185741-7edd-46da-aebd-80d1966c154f",
+  "rootParentId": "e7185741-7edd-46da-aebd-80d1966c154f",
+  "name": "Confirm Name No",
+  "auto": true,
+  "contexts": [
+    "GetName-followup",
+    "awaiting_name_and_phone_number"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetName.GetName-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting_name_and_phone_number",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "No Problem, Please repeat you name and number again.",
+            "Can you please repeat?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

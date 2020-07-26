@@ -1,0 +1,156 @@
+[
+  {
+    "id": "c611ff74-8319-49f6-a69b-ca6c47bb6e81",
+    "data": [
+      {
+        "text": "why not ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ddd06b9a-3e9b-422a-ac53-151a1a803dd0",
+    "data": [
+      {
+        "text": "let have ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a22ec7c-0120-4e4b-a694-d9230b7182aa",
+    "data": [
+      {
+        "text": "give me one ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9bf1183-a14a-40d5-bcc8-b5f14466050c",
+    "data": [
+      {
+        "text": "please ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      },
+      {
+        "text": " one",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc9c1291-52f4-4288-9899-022617aaf415",
+    "data": [
+      {
+        "text": "i would like to have ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b174739-c9d1-45d3-b957-aa47094dc812",
+    "data": [
+      {
+        "text": "large",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60d2b1fe-2f1a-493c-9aea-4face78d753d",
+    "data": [
+      {
+        "text": "medium",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8b46401-a74c-47a2-9cbd-e784131ca4c6",
+    "data": [
+      {
+        "text": "small",
+        "alias": "pizza_size",
+        "meta": "@pizza_size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
