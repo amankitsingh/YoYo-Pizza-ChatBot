@@ -27,6 +27,17 @@ YoYo pizza ChatBot
 
 - This Chatbot is a simulation of ordering pizza 
 
-<p> In this bot you can order the pizza as well as check the status of your pizza!!!</p>
+- In this bot you can order the pizza as well as check the status of your pizza!!!
+
+- All the data is securely saved in firebase databse.
+
+### Requirment:
+
+- DialogFlow
+- Gcloud Server
+- Firebase
+  - FireStore
+
+
 
 <img src="https://img.shields.io/badge/Click%20on%20the%20Link%20to%20Expore%20the%20project-%F0%9F%91%89-yellowgreen?style=flat-square&logo=appveyor" alt="Right finger"> [Bot link](https://pizzaorder.vercel.app)
