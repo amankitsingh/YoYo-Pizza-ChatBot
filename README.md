@@ -41,6 +41,6 @@ YoYo pizza ChatBot
 
 ### Application Architeture
 
-[Map Diagram]()
+![Map Diagram](https://rawcdn.githack.com/infinityrun/YoYo-Pizza-ChatBot/77cbb483a4e1297d0582a39ae9e2caf03f8dd7ea/Application Architecture.jpeg)
 
 <img src="https://img.shields.io/badge/Click%20on%20the%20Link%20to%20Expore%20the%20project-%F0%9F%91%89-yellowgreen?style=flat-square&logo=appveyor" alt="Right finger"> [Bot link](https://pizzaorder.vercel.app)
