@@ -27,4 +27,4 @@ YoYo pizza ChatBot
 
 - This Chatbot is a simulation of ordering pizza 
 
-<a href="www.pizzaorder.vercel.app"><img src="https://img.shields.io/badge/Click%20on%20me-%F0%9F%A4%98-yellowgreen" alt="Right finger"></a>
+<a href="www.pizzaorder.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Click%20on%20me-%F0%9F%A4%98-yellowgreen" alt="Right finger"></a>
